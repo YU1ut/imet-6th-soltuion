@@ -23,4 +23,5 @@ Train pnas models from fold 0 to 4:
 ```
 python main.py train model_pnas_{fold} --model pnasnet5large --fold {fold} --n-epochs 40 --batch-size 24 --workers 8
 ```
+### Test
 The ensemble of these model is used to predict results in `imet-predict-final.ipynb`.
